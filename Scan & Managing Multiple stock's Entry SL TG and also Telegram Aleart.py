@@ -12,7 +12,7 @@ import winsound
 
 # Client credentials
 client_code = "11"
-token_id    = "UxMSJ9"
+token_id    = "U9"
 
 # Initialize Tradehull object with client credentials
 tsl = Tradehull(client_code, token_id)

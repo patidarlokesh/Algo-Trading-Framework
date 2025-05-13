@@ -11,8 +11,8 @@ import xlwings as xw
 import winsound
 
 # Client credentials
-client_code = "1101067511"
-token_id    = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzQ5NTM4NDkwLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiIiwiZGhhbkNsaWVudElkIjoiMTEwMTA2NzUxMSJ9.nDrKCAtxD4fOCnwRE1rdnLAq-QBC1XWU_3T6sy_6rq_rHq4M9nx7b5F9v_VGx-AmVIWbMSQUYMvzr7Nx5xCeEQ"
+client_code = "11"
+token_id    = "UxMSJ9"
 
 # Initialize Tradehull object with client credentials
 tsl = Tradehull(client_code, token_id)
@@ -36,8 +36,8 @@ reentry = "yes"  # "yes/no"
 completed_orders = []
 
 # Telegram bot configuration for alerts
-bot_token = "8019906856:AAFaYwtLkYSnHsZqoNpFpixuWo8WyA-Z3dM"
-receiver_chat_id = "7740275527"
+bot_token = "8dM"
+receiver_chat_id = "77"
 
 # Clear previous data from the sheets in Excel
 live_Trading.range("A2:Z100").value = None

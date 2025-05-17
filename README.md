@@ -1,4 +1,4 @@
-# Intraday Auto Trading Bot with EMA & RSI Strategy Using Dhan API
+# Intraday Auto Trading Bot with EMA & RSI Strategy Using  API
 
 This Python script is an automated intraday trading bot that places buy orders based on a simple yet effective technical strategy using EMA and RSI indicators. It uses the Dhan API for order execution, TA-Lib for indicator calculations, Pandas for data processing, xlwings for real-time Excel updates, and Telegram Bot API for instant trade alerts.
 
